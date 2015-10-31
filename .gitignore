@@ -1,0 +1,10 @@
+.git
+.idea
+.cache/
+.history/
+.lib/
+dist/*
+target/
+project/project
+
+*.iml
