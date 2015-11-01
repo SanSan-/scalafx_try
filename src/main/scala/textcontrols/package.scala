@@ -36,15 +36,15 @@ package object TextControls extends JFXApp {
       content = label :: text :: area :: password :: Nil
 
       text.onAction = (e:ActionEvent) => {
-        label.text = "You can see what i type in text field: %s".format(text.text.apply)
+        label.text = "You can see what u type in text field: %s".format(text.text.apply)
       }
 
       area.text.onChange {
-        label.text = "You can see what i type in text area: %s".format(area.text.apply)
+        label.text = "You can see what u type in text area: %s".format(area.text.apply)
       }
 
       password.focused.onChange {
-        label.text = "LOL! You can see what i type in password area: %s".format(password.text.apply)
+        label.text = "LOL! You can see what u type in password area: %s".format(password.text.apply)
       }
     }
   }
